@@ -14,7 +14,7 @@ cat <<EOF > /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json
     "mode":"tcp_and_udp",
     "server_port":8388,
     "local_port":1080,
-    "password":"135890",
+    "password":"895865",
     "timeout":60,
     "fast_open":true,
     "reuse_port": true,
@@ -50,8 +50,8 @@ iptables -I INPUT -p tcp --dport 8388 -j ACCEPT
 iptables -I INPUT -p udp --dport 8388 -j ACCEPT
 
 # Настройка /etc/hosts
-echo "99.84.140.147          fapi.binance.com" >> /etc/hosts
-echo "99.84.140.147         api.binance.com" >> /etc/hosts
+echo "99.84.58.138          fapi.binance.com" >> /etc/hosts
+echo "99.84.58.138         api.binance.com" >> /etc/hosts
 
 # Отключение фаервола
 ufw disable
