@@ -14,7 +14,7 @@ cat <<EOF > /var/snap/shadowsocks-libev/common/etc/shadowsocks-libev/config.json
     "mode":"tcp_and_udp",
     "server_port":8388,
     "local_port":1080,
-    "password":"895865",
+    "password":"399857",
     "timeout":60,
     "fast_open":true,
     "reuse_port": true,
